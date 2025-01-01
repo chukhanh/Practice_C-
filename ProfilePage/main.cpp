@@ -1,31 +1,25 @@
 #include <iostream>
 
-#include "Model/Student.h"
+#include "Constant/Common.h"
+#include "Model/File/File.h"
+#include "Model/Student/Student.h"
+
 
 int main() {
-    Student student(
-         "SV00123",                  // Student ID
-         "John Doe",                 // Full name
-         "Computer Science",         // Faculty
-         2023,                       // Enrollment year
-         "01/01/2001",               // Date of birth
-         "/path/to/image.jpg",       // Profile picture
-         "A passionate student who loves coding.", // Self-description
-         {"Listening to music", "Watching movies", "Playing basketball"} // Hobbies
-     );
+    // Load students from CSV file
+    const std::vector<Student> students = loadStudents(STUDENT_FULL_PATH);
 
-    // Hiển thị thông tin sinh viên
-    std::cout << " - Name: " << student.fullName
-              << "\n - ID: " << student.studentId
-              << "\n - Faculty: " << student.faculty
-              << "\n - Enrollment Year: " << student.enrollmentYear
-              << "\n - Date of Birth: " << student.dateOfBirth
-              << "\nDescription: " << student.selfDescription
-              << "\nHobbies: ";
+    // Print students for verification
+    if(students.empty()) {
+        printf("\nKhông tìm thấy thông tin sinh viên trong hệ thống.\n");
 
-    for (const auto& hobby : student.hobbies) {
-        std::cout << hobby << ", ";
+    }else {
+        int index = 1; // Start the index at 1
+        for (const auto& student : students) {
+            printf("\nThông tin sinh viên thứ [%d] trong hệ thống là: ", index);
+            student.print();
+            ++index; // Increment the index for the next student
+        }
     }
-    std::cout << std::endl;
     return 0;
 }

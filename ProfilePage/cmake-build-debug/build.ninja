@@ -55,11 +55,23 @@ build CMakeFiles/ProfilePage.dir/main.cpp.o: CXX_COMPILER__ProfilePage_unscanned
   OBJECT_DIR = CMakeFiles/ProfilePage.dir
   OBJECT_FILE_DIR = CMakeFiles/ProfilePage.dir
 
-build CMakeFiles/ProfilePage.dir/Model/Student.cpp.o: CXX_COMPILER__ProfilePage_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/ProfilePage/Model/Student.cpp || cmake_object_order_depends_target_ProfilePage
-  DEP_FILE = CMakeFiles/ProfilePage.dir/Model/Student.cpp.o.d
+build CMakeFiles/ProfilePage.dir/Model/Student/Student.cpp.o: CXX_COMPILER__ProfilePage_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/ProfilePage/Model/Student/Student.cpp || cmake_object_order_depends_target_ProfilePage
+  DEP_FILE = CMakeFiles/ProfilePage.dir/Model/Student/Student.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ProfilePage.dir
-  OBJECT_FILE_DIR = CMakeFiles/ProfilePage.dir/Model
+  OBJECT_FILE_DIR = CMakeFiles/ProfilePage.dir/Model/Student
+
+build CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o: CXX_COMPILER__ProfilePage_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/ProfilePage/Model/File/File.cpp || cmake_object_order_depends_target_ProfilePage
+  DEP_FILE = CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProfilePage.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProfilePage.dir/Model/File
+
+build CMakeFiles/ProfilePage.dir/Constant/Common.cpp.o: CXX_COMPILER__ProfilePage_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/ProfilePage/Constant/Common.cpp || cmake_object_order_depends_target_ProfilePage
+  DEP_FILE = CMakeFiles/ProfilePage.dir/Constant/Common.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ProfilePage.dir
+  OBJECT_FILE_DIR = CMakeFiles/ProfilePage.dir/Constant
 
 
 # =============================================================================
@@ -69,7 +81,7 @@ build CMakeFiles/ProfilePage.dir/Model/Student.cpp.o: CXX_COMPILER__ProfilePage_
 #############################################
 # Link the executable ProfilePage
 
-build ProfilePage: CXX_EXECUTABLE_LINKER__ProfilePage_Debug CMakeFiles/ProfilePage.dir/main.cpp.o CMakeFiles/ProfilePage.dir/Model/Student.cpp.o
+build ProfilePage: CXX_EXECUTABLE_LINKER__ProfilePage_Debug CMakeFiles/ProfilePage.dir/main.cpp.o CMakeFiles/ProfilePage.dir/Model/Student/Student.cpp.o CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o CMakeFiles/ProfilePage.dir/Constant/Common.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_FLAGS = -L/usr/local/opt/ruby/lib
   OBJECT_DIR = CMakeFiles/ProfilePage.dir
