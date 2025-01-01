@@ -3,4 +3,6 @@ project(ProfilePage)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ProfilePage main.cpp)
+add_executable(ProfilePage main.cpp
+        Model/Student.cpp
+        Model/Student.h)
