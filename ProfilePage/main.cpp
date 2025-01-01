@@ -18,6 +18,7 @@ int main() {
         for (const auto& student : students) {
             printf("\nThông tin sinh viên thứ [%d] trong hệ thống là: ", index);
             student.print();
+            generateStudentHTML(student);
             ++index; // Increment the index for the next student
         }
     }

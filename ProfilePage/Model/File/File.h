@@ -8,6 +8,7 @@
 
 std::vector<Student> loadStudents(const std::string &filePath);
 std::vector<std::string> splitCSV(const std::string &line);
-
-
+std::string replacePlaceholder(const std::string& html, const std::string& placeholder, const std::string& value);
+bool fileExists(const std::string& path);
+void generateStudentHTML(const Student& student);
 #endif //FILE_H

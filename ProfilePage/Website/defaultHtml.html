@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="personal.css"/>
+    <title>HCMUS - {studentName}</title>
+</head>
+<body>
+<div class="Layout_container">
+
+    <!-- Begin Layout MainContents Region -->
+    <div class="Layout_MainContents">
+        <!-- Begin Below Banner Region -->
+        <div class="Personal_Main_Information">
+            <div class="Personal_Location">
+                <div class="Personal_FullName">{studentName} - {studentId}</div>
+                <div class="Personal_Department">{faculty}</div>
+                <br/>
+                <div class="Personal_Phone">
+                    Email: {studentEmail}
+                </div>
+                <br/>
+                <br/>
+            </div>
+            <div class="Personal_HinhcanhanKhung">
+                <img src="{profilePicture}" class="Personal_Hinhcanhan"/>
+            </div>
+        </div>
+        <!-- End Below Banner Region -->
+        <!-- Begin MainContents Region -->
+        <div class="MainContain">
+
+            <!-- Begin Top Region -->
+            <div class="MainContain_Top">
+
+                <div class="InfoGroup">Thông tin cá nhân</div>
+                <div>
+                    <ul class="TextInList">
+                        <li>Họ và tên: {studentName}</li>
+                        <li>MSSV: {studentId}</li>
+                        <li>{faculty}</li>
+                        <li>Ngày sinh: {dateOfBirth}</li>
+                        <li>Email: {studentEmail}</li>
+                    </ul>
+                </div>
+                <div class="InfoGroup">Sở thích</div>
+                <div>
+                    <ul class="TextInList">
+                        {hobbies}
+                    </ul>
+                </div>
+                <div class="InfoGroup">Mô tả</div>
+                <div class="Description">
+                    {selfDescription}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Begin Layout Footer -->
+    <div class="Layout_Footer">
+        <div class="divCopyright">
+            <br/>
+            <br/>
+            @2024</br>
+            Đồ án giữ kỳ</br>
+            Kỹ thuật lập trình</br>
+            TH2024</br>
+            24810008 - Chu Đức Khánh thực hiện</br>
+        </div>
+    </div>
+    <!-- End Layout Footer -->
+</div>
+</body>
+</html>
