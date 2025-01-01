@@ -1,19 +1,8 @@
 # ninja log v6
-18	949	1735743925068249638	CMakeFiles/ProfilePage.dir/Constant/Common.cpp.o	2c9f89a08c8cbc54
-13	765	1735744117887152907	CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o	925ac5c43b74b96b
-7	690	1735709006943748252	CMakeFiles/ProfilePage.dir/Model/Student.cpp.o	f0f561f21d773b5b
-12	640	1735744117886507714	CMakeFiles/ProfilePage.dir/Model/Student/Student.cpp.o	c10a2e3fe6b6626a
-765	908	1735744118639067848	ProfilePage	f5e2c9a7fb0aabf
-12	663	1735744117885696274	CMakeFiles/ProfilePage.dir/main.cpp.o	ce4f2006d265a6f0
-13	948	1735744292578951035	CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o	925ac5c43b74b96b
-948	998	1735744293514254609	ProfilePage	f5e2c9a7fb0aabf
-13	875	1735744642647993331	CMakeFiles/ProfilePage.dir/Model/Student/Student.cpp.o	c10a2e3fe6b6626a
-13	893	1735744642648660191	CMakeFiles/ProfilePage.dir/Constant/Common.cpp.o	2c9f89a08c8cbc54
-12	907	1735744642647370554	CMakeFiles/ProfilePage.dir/main.cpp.o	ce4f2006d265a6f0
-13	1024	1735744642648181869	CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o	925ac5c43b74b96b
-1025	1168	1735744643659750422	ProfilePage	f5e2c9a7fb0aabf
 13	743	1735744747268594196	CMakeFiles/ProfilePage.dir/Constant/Common.cpp.o	2c9f89a08c8cbc54
+9	810	1735746373247576485	CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o	925ac5c43b74b96b
+7	690	1735709006943748252	CMakeFiles/ProfilePage.dir/Model/Student.cpp.o	f0f561f21d773b5b
 12	759	1735744747268168164	CMakeFiles/ProfilePage.dir/Model/Student/Student.cpp.o	c10a2e3fe6b6626a
+810	858	1735746374048148373	ProfilePage	f5e2c9a7fb0aabf
 12	787	1735744747267566927	CMakeFiles/ProfilePage.dir/main.cpp.o	ce4f2006d265a6f0
-13	906	1735744747268384200	CMakeFiles/ProfilePage.dir/Model/File/File.cpp.o	925ac5c43b74b96b
-906	957	1735744748162171551	ProfilePage	f5e2c9a7fb0aabf
+11	433	1735746516143478382	CMakeFiles/ProfilePage.dir/Users/chukhanhhh/Desktop/Hcmus/Đồ_án_C++/Practice_C-/gitLib/libFile/main.cpp.o	fb64378539f15d93

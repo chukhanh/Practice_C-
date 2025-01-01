@@ -11,7 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="ProfilePage" targetName="ProfilePage" />
+      <config projectName="Caculate" targetName="Caculate" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,13 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac93d46-639b-4213-bbac-fef609b25c5e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-01-01T06-38-59-0265.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ProfilePage" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ProfilePage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    <list default="true" id="347b997d-c6d3-4693-82e8-3f551c28cf2e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/ProfilePage" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/ProfilePage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,9 +57,9 @@
     <option name="productBranch" value="Classic" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2r0uJLdfo1lC6NSxZXABJ1wHmNl" />
+  <component name="ProjectId" id="2r29HldFKpmGMkGUhoOwrY0T4ue" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -80,12 +78,7 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProfilePage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ProfilePage" TARGET_NAME="ProfilePage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ProfilePage" RUN_TARGET_NAME="ProfilePage">
+    <configuration name="Caculate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Caculate" TARGET_NAME="Caculate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Caculate" RUN_TARGET_NAME="Caculate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -94,13 +87,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7ac93d46-639b-4213-bbac-fef609b25c5e" name="Changes" comment="" />
-      <created>1735708240589</created>
+      <changelist id="347b997d-c6d3-4693-82e8-3f551c28cf2e" name="Changes" comment="" />
+      <created>1735746216769</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735708240589</updated>
-      <workItem from="1735708241799" duration="6000" />
-      <workItem from="1735746238109" duration="17000" />
+      <updated>1735746216769</updated>
+      <workItem from="1735746217814" duration="9000" />
+      <workItem from="1735746232892" duration="2000" />
     </task>
     <servers />
   </component>

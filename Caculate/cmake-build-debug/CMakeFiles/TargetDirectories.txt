@@ -1,0 +1,3 @@
+/Users/chukhanhhh/Desktop/Hcmus/Đồ án C++/Practice_C-/Caculate/cmake-build-debug/CMakeFiles/Caculate.dir
+/Users/chukhanhhh/Desktop/Hcmus/Đồ án C++/Practice_C-/Caculate/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chukhanhhh/Desktop/Hcmus/Đồ án C++/Practice_C-/Caculate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
