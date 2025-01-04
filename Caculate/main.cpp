@@ -2,10 +2,102 @@
 #include <stack>
 #include <sstream>
 #include <string>
-#include <cctype>
 #include <vector>
-#include <algorithm>
+#include <cctype>
+#include <cstdlib>
+
 using namespace std;
+
+// Hàm trả về độ ưu tiên của toán tử
+int precedence(char op) {
+    if (op == '+' || op == '-') return 1;
+    if (op == '*' || op == '/') return 2;
+    return 0;
+}
+
+// Hàm kiểm tra xem ký tự có phải là toán tử không
+bool isOperator(char c) {
+    return c == '+' || c == '-' || c == '*' || c == '/';
+}
+
+// Hàm chuyển biểu thức infix (tiền tố) sang hậu tố (postfix)
+string infixToPostfix(const string &expression) {
+    stack<char> ops;
+    string postfix = "";
+    string number = "";
+
+    for (size_t i = 0; i < expression.size(); i++) {
+        char c = expression[i];
+
+        if (isdigit(c)) {  // Nếu là chữ số
+            number += c;
+        } else if (c == ' ') {  // Nếu là khoảng trắng
+            if (!number.empty()) {  // Kết thúc một số và thêm vào hậu tố
+                postfix += number + " ";
+                number = "";
+            }
+        } else if (isOperator(c)) {  // Nếu là toán tử
+            if (!number.empty()) {  // Đẩy số trước đó vào hậu tố
+                postfix += number + " ";
+                number = "";
+            }
+            while (!ops.empty() && precedence(ops.top()) >= precedence(c)) {
+                postfix += ops.top();
+                postfix += " ";
+                ops.pop();
+            }
+            ops.push(c);
+        } else if (c == '(') {  // Nếu là dấu ngoặc mở
+            ops.push(c);
+        } else if (c == ')') {  // Nếu là dấu ngoặc đóng
+            if (!number.empty()) {
+                postfix += number + " ";
+                number = "";
+            }
+            while (!ops.empty() && ops.top() != '(') {
+                postfix += ops.top();
+                postfix += " ";
+                ops.pop();
+            }
+            ops.pop();  // Loại bỏ dấu ngoặc mở
+        }
+    }
+
+    // Xử lý số cuối cùng nếu còn sót lại
+    if (!number.empty()) {
+        postfix += number + " ";
+    }
+
+    // Lấy tất cả toán tử còn lại trong stack và thêm vào hậu tố
+    while (!ops.empty()) {
+        postfix += ops.top();
+        postfix += " ";
+        ops.pop();
+    }
+
+    return postfix;
+}
+
+// Hàm tính toán giá trị biểu thức hậu tố
+long long evaluatePostfix(const string &postfix) {
+    stack<long long> stack;
+    stringstream ss(postfix);
+    string token;
+
+    while (ss >> token) {
+        if (isdigit(token[0]) || (token[0] == '-' && token.size() > 1)) {  // Là số (cả âm)
+            stack.push(stoll(token));
+        } else {  // Là toán tử
+            long long b = stack.top(); stack.pop();
+            long long a = stack.top(); stack.pop();
+            if (token == "+") stack.push(a + b);
+            else if (token == "-") stack.push(a - b);
+            else if (token == "*") stack.push(a * b);
+            else if (token == "/") stack.push(a / b);
+        }
+    }
+    return stack.top();  // Kết quả cuối cùng
+}
 
 // Hàm cộng hai số lớn dạng chuỗi
 string addBigIntegers(const string& a, const string& b) {
@@ -55,61 +147,8 @@ string subtractBigIntegers(const string& a, const string& b) {
     return result;
 }
 
-// Hàm kiểm tra độ ưu tiên của toán tử
-int precedence(char op) {
-    if (op == '+' || op == '-') return 1;
-    if (op == '*' || op == '/') return 2;
-    return 0;
-}
-
-// Hàm kiểm tra ký tự có phải là toán tử không
-bool isOperator(char c) {
-    return c == '+' || c == '-' || c == '*' || c == '/';
-}
-
-// Hàm chuyển đổi biểu thức từ trung tố sang hậu tố
-string infixToPostfix(const string& infix) {
-    stack<char> operators;
-    string postfix;
-    for (size_t i = 0; i < infix.size(); ++i) {
-        char c = infix[i];
-        if (isspace(c)) continue; // Bỏ qua khoảng trắng
-        if (isdigit(c)) {
-            // Xử lý số
-            while (i < infix.size() && (isdigit(infix[i]) || infix[i] == '-')) {
-                postfix += infix[i];
-                ++i;
-            }
-            postfix += ' ';
-            --i;
-        } else if (c == '(') {
-            operators.push(c);
-        } else if (c == ')') {
-            while (!operators.empty() && operators.top() != '(') {
-                postfix += operators.top();
-                postfix += ' ';
-                operators.pop();
-            }
-            operators.pop();
-        } else if (isOperator(c)) {
-            while (!operators.empty() && precedence(operators.top()) >= precedence(c)) {
-                postfix += operators.top();
-                postfix += ' ';
-                operators.pop();
-            }
-            operators.push(c);
-        }
-    }
-    while (!operators.empty()) {
-        postfix += operators.top();
-        postfix += ' ';
-        operators.pop();
-    }
-    return postfix;
-}
-
 // Hàm tính toán biểu thức hậu tố
-string evaluatePostfix(const string& postfix) {
+string evaluatePostfixForBigInit(const string& postfix) {
     stack<string> values;
     istringstream stream(postfix);
     string token;
@@ -136,6 +175,48 @@ string evaluatePostfix(const string& postfix) {
     return values.top();
 }
 
+// Hàm kiểm tra token có phải số BigInit hay không
+bool isBigInit(const string& token) {
+    if (token.empty()) return false; // Chuỗi rỗng không phải số
+    size_t start = 0;
+
+    // Kiểm tra dấu âm ở đầu
+    if (token[0] == '-') {
+        if (token.size() == 1) return false; // Dấu trừ một mình không hợp lệ
+        start = 1;
+    }
+
+    // Kiểm tra các ký tự còn lại có phải chữ số không
+    for (size_t i = start; i < token.size(); i++) {
+        if (!isdigit(token[i])) {
+            return false; // Gặp ký tự không phải số
+        }
+    }
+
+    // Kiểm tra nếu số quá lớn (BigInt)
+    const string BIG_NUMBER_THRESHOLD = "100000"; // Ngưỡng xác định BigInt
+    if (token.size() > BIG_NUMBER_THRESHOLD.size() ||
+       (token.size() == BIG_NUMBER_THRESHOLD.size() && token > BIG_NUMBER_THRESHOLD)) {
+        return true; // Token là BigInt nếu vượt quá ngưỡng
+       }
+
+    return false; // Token không phải BigInt
+}
+
+bool containsBigInt(const string& expression) {
+    stringstream stream(expression); // Tách token trong biểu thức
+    string token;
+
+    // Duyệt qua từng token trong biểu thức
+    while (stream >> token) {
+        if (isBigInit(token)) {
+            return true; // Nếu tìm thấy số BigInt, trả về true
+        }
+    }
+
+    return false; // Nếu không tìm thấy số BigInt, trả về false
+}
+
 int main() {
     vector<string> expressions = {
         "(5 - 2) * 3",
@@ -144,27 +225,21 @@ int main() {
         "(((-5 + (89 * 6) - 36) * (55 + 5) + 33) * 4 - 10)"
     };
 
-    for (const auto& expr : expressions) {
+    for (const auto &expr : expressions) {
         try {
-            cout << "Biểu thức gốc: " << expr << endl;
+            cout << "Biểu thức hiện tại: " << expr << endl;
             string postfix = infixToPostfix(expr);
-            cout << "Biểu thức hậu tố: " << postfix << endl;
-            string result = evaluatePostfix(postfix);
-            cout << "Kết quả: " << result << endl << endl;
-        } catch (const exception& e) {
-            cout << "Lỗi: " << e.what() << endl;
+            cout << "Hàm chuyển đổi hậu tố là: " << postfix << endl;
+            if(containsBigInt(postfix)) {
+                string result = evaluatePostfixForBigInit(postfix);
+                cout << "Kết quả là: " << result << endl << endl;
+            }else {
+                long long result = evaluatePostfix(postfix);
+                cout << "Kết quả là: " << result << endl << endl;
+            }
+        } catch (const exception &e) {
+           e.what();
         }
     }
-    // string expr = "24 - 9 - (129 + 90 - 1788877888778788887877)";
-    // try {
-    //     cout << "Biểu thức gốc: " << expr << endl;
-    //     string postfix = infixToPostfix(expr);
-    //     cout << "Biểu thức hậu tố: " << postfix << endl;
-    //     string result = evaluatePostfix(postfix);
-    //     cout << "Kết quả: " << result << endl;
-    // } catch (const exception& e) {
-    //     cout << "Lỗi: " << e.what() << endl;
-    // }
-
     return 0;
 }
