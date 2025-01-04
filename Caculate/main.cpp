@@ -22,7 +22,7 @@ int main() {
             cout << "Kết quả là: " << result << endl << endl;
             results.push_back(result);
         } catch (const exception &e) {
-            cout << "Lỗi: " << e.what() << endl;
+            cout << "Lỗi: " << e.what() << endl << endl;
             results.emplace_back(e.what());
         }
     }
