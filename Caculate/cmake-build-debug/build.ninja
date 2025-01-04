@@ -55,6 +55,24 @@ build CMakeFiles/Caculate.dir/main.cpp.o: CXX_COMPILER__Caculate_unscanned_Debug
   OBJECT_DIR = CMakeFiles/Caculate.dir
   OBJECT_FILE_DIR = CMakeFiles/Caculate.dir
 
+build CMakeFiles/Caculate.dir/Model/File/File.cpp.o: CXX_COMPILER__Caculate_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/Caculate/Model/File/File.cpp || cmake_object_order_depends_target_Caculate
+  DEP_FILE = CMakeFiles/Caculate.dir/Model/File/File.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Caculate.dir
+  OBJECT_FILE_DIR = CMakeFiles/Caculate.dir/Model/File
+
+build CMakeFiles/Caculate.dir/Constant/Common.cpp.o: CXX_COMPILER__Caculate_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/Caculate/Constant/Common.cpp || cmake_object_order_depends_target_Caculate
+  DEP_FILE = CMakeFiles/Caculate.dir/Constant/Common.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Caculate.dir
+  OBJECT_FILE_DIR = CMakeFiles/Caculate.dir/Constant
+
+build CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o: CXX_COMPILER__Caculate_unscanned_Debug /Users/chukhanhhh/Desktop/Hcmus/Đồ$ án$ C++/Practice_C-/Caculate/Model/Calculation/Calculations.cpp || cmake_object_order_depends_target_Caculate
+  DEP_FILE = CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Caculate.dir
+  OBJECT_FILE_DIR = CMakeFiles/Caculate.dir/Model/Calculation
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Caculate
@@ -63,7 +81,7 @@ build CMakeFiles/Caculate.dir/main.cpp.o: CXX_COMPILER__Caculate_unscanned_Debug
 #############################################
 # Link the executable Caculate
 
-build Caculate: CXX_EXECUTABLE_LINKER__Caculate_Debug CMakeFiles/Caculate.dir/main.cpp.o
+build Caculate: CXX_EXECUTABLE_LINKER__Caculate_Debug CMakeFiles/Caculate.dir/main.cpp.o CMakeFiles/Caculate.dir/Model/File/File.cpp.o CMakeFiles/Caculate.dir/Constant/Common.cpp.o CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   LINK_FLAGS = -L/usr/local/opt/ruby/lib
   OBJECT_DIR = CMakeFiles/Caculate.dir
