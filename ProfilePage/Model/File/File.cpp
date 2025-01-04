@@ -5,6 +5,8 @@
 #include "File.h"
 
 #include <sstream>
+#include <string>
+#include <vector>
 
 std::vector<std::string> splitCSV(const std::string &line) {
     std::vector<std::string> tokens;

@@ -11,7 +11,7 @@ using namespace std;
 
 
 int main() {
-    vector<string> expressions = loadCalculations(INPUT_PATH);
+    const vector<string> expressions = loadCalculations(INPUT_PATH);
     vector<string> results;
     for (const auto &expr : expressions) {
         try {

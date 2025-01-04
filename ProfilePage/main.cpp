@@ -3,7 +3,7 @@
 #include "Constant/Common.h"
 #include "Model/File/File.h"
 #include "Model/Student/Student.h"
-
+#include <vector>
 
 int main() {
     // Load students from CSV file
