@@ -23,6 +23,7 @@ int main() {
             results.push_back(result);
         } catch (const exception &e) {
             cout << "Lỗi: " << e.what() << endl;
+            results.emplace_back(e.what());
         }
     }
     saveOutPutCalculations(OUTPUT_PATH, results);
