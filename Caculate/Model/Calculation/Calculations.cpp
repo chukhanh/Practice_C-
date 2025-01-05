@@ -200,18 +200,16 @@ std::string evaluatePostfix(const std::string &postfix) {
                 stack.pop();
                 std::string a = stack.top();
                 stack.pop();
-                std::string result;
 
                 // Handling BigInt operations
                 switch (token[0]) {
-                    case '+': result = addBigIntegers(a, b);
+                    case '+': stack.push(addBigIntegers(a, b));
                         break;
-                    case '-': result = subtractBigIntegers(a, b);
+                    case '-': stack.push(subtractBigIntegers(a, b));
                         break;
                     // Add other operators as needed
                     default: throw std::runtime_error("Chưa hỗ trợ toán tử này");
                 }
-                stack.push(result); // Push BigInt result to the stack
             }
         }
         result = stack.top();
