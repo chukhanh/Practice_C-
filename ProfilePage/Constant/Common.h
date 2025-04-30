@@ -6,7 +6,7 @@ const std::string STUDENT_FILE_NAME = "student.csv";
 const std::string STUDENT_FULL_PATH = R"(../Document/student.csv)";
 const std::string DEFAULT_HTML_PATH = R"(../Website/defaultHtml.html)";
 const std::string DEFAULT_SAVE_HTML_PATH = R"(../Website/)";
-const std::string DEFAULT_SAVE_IMAGE_PATH = R"(./Image/)";
+const std::string DEFAULT_SAVE_IMAGE_PATH = R"(./Images/)";
 const std::string HTML_FILE = ".html";
 
 // Hàm xoá dấu “ ” trong chuỗi
