@@ -3,9 +3,17 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,10 +29,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="347b997d-c6d3-4693-82e8-3f551c28cf2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/ProfilePage" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/ProfilePage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../ProfilePage/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Document/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Document/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Document/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Document/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Caculate" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Caculate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/.idea/ProfilePage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Constant/Common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/Constant/Common.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Constant/Common.h" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/Constant/Common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Document/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Model/File/File.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/Model/File/File.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Model/File/File.h" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/Model/File/File.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Model/Student/Student.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Model/Student/Student.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Website/Images/BG_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Website/Images/student.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Website/Personal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/Website/defaultHtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProfilePage/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../24810008/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +83,14 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/chukhanh/Practice_C-.git&quot;,
-    &quot;accountId&quot;: &quot;89f8c66f-6752-4d03-9df1-bddd0a42e38b&quot;
+    &quot;accountId&quot;: &quot;c3928e25-5bce-4a4a-ad1d-59dafaf56e8d&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2024" />
@@ -64,25 +105,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.Caculate.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/chukhanhhh/Downloads/hcmus/HK2/CSC10002/Practice_C-/Caculate/Document",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Document" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Caculate" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Caculate" TARGET_NAME="Caculate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Caculate" RUN_TARGET_NAME="Caculate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,10 +162,18 @@
       <updated>1735746216769</updated>
       <workItem from="1735746217814" duration="9000" />
       <workItem from="1735746232892" duration="2000" />
+      <workItem from="1749308988237" duration="13000" />
+      <workItem from="1749309045870" duration="349000" />
+      <workItem from="1749309401378" duration="1369000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
   </component>
 </project>

@@ -1,0 +1,25 @@
+# ninja log v6
+5	628	1764479423210632081	CMakeFiles/Restaurant_Management.dir/Constant/Common.cpp.o	22dbc08be59cd1ae
+5	611	1764482508543053243	CMakeFiles/Restaurant_Management.dir/main.cpp.o	2e6acdcf3e98288c
+612	717	1764482509149149112	Restaurant_Management	5bef167655db89ff
+7	661	1765193741313560123	CMakeFiles/Restaurant_Management.dir/Constant/Common.cpp.o	22dbc08be59cd1ae
+662	691	1765193741968133931	CMakeFiles/Restaurant_Management.dir/Model/BaseClass.cpp.o	1d57dd2a3e9d161f
+8	925	1765193741314034498	CMakeFiles/Restaurant_Management.dir/Model/Category/Category.cpp.o	4fb3527ffd0731b0
+8	941	1765193741314384332	CMakeFiles/Restaurant_Management.dir/Model/Item/Product.cpp.o	659e4895171c5f2
+8	1030	1765193741314240082	CMakeFiles/Restaurant_Management.dir/Model/Category/CategoryFile.cpp.o	fb5a1f465d5937fd
+8	1057	1765193741314524207	CMakeFiles/Restaurant_Management.dir/Model/Item/ProductFile.cpp.o	99e601b66119ef8
+691	1210	1765193741997810953	CMakeFiles/Restaurant_Management.dir/Model/InvoiceItem/InvoiceItem.cpp.o	7b6ce203be0b7e4f
+5	494	1765193768779139160	CMakeFiles/Restaurant_Management.dir/Model/Invoice/Invoice.cpp.o	f7e8b7f435089c8c
+5	534	1765193768779002910	CMakeFiles/Restaurant_Management.dir/Model/InvoiceItem/InvoiceItem.cpp.o	7b6ce203be0b7e4f
+4	582	1765193768778716826	CMakeFiles/Restaurant_Management.dir/main.cpp.o	2e6acdcf3e98288c
+5	665	1765193768779267285	CMakeFiles/Restaurant_Management.dir/Model/StoreManager/StoreManager.cpp.o	92328ba94ca88489
+8	165	1765193854441495645	CMakeFiles/Restaurant_Management.dir/Model/BaseClass.cpp.o	1d57dd2a3e9d161f
+6	944	1765193854439602852	CMakeFiles/Restaurant_Management.dir/main.cpp.o	2e6acdcf3e98288c
+7	948	1765193854440507436	CMakeFiles/Restaurant_Management.dir/Model/Category/Category.cpp.o	4fb3527ffd0731b0
+7	983	1765193854440817228	CMakeFiles/Restaurant_Management.dir/Model/Item/Product.cpp.o	659e4895171c5f2
+8	1060	1765193854441022978	CMakeFiles/Restaurant_Management.dir/Model/Item/ProductFile.cpp.o	99e601b66119ef8
+7	1064	1765193854440666019	CMakeFiles/Restaurant_Management.dir/Model/Category/CategoryFile.cpp.o	fb5a1f465d5937fd
+165	1070	1765193854598615425	CMakeFiles/Restaurant_Management.dir/Model/StoreManager/StoreManager.cpp.o	92328ba94ca88489
+1070	1175	1765193855503374582	Restaurant_Management	8297878385253c7a
+5	814	1765193968018059992	CMakeFiles/Restaurant_Management.dir/Model/StoreManager/StoreManager.cpp.o	92328ba94ca88489
+814	922	1765193968827595788	Restaurant_Management	8297878385253c7a

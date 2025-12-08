@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexRemoved" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Restaurant_Management" targetName="Restaurant_Management" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd0faf86-412f-42ce-9306-3c96bd087626" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Constant/Common.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Constant/Common.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Document/Category.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Document/Product.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/BaseClass.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/BaseClass.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Category/Category.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Category/Category.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Category/CategoryFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Category/CategoryFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/File.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Invoice/Invoice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Invoice/Invoice.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/InvoiceItem/InvoiceItem.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/InvoiceItem/InvoiceItem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Item/Product.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Item/Product.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Item/ProductFile.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/Item/ProductFile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/StoreManager/StoreManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Restaurant_Management/Model/StoreManager/StoreManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/Constant/Common.h" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/Constant/Common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/Document/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/Document/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/Document/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/Document/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/Caculate" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/Caculate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caculate/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/Caculate/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/.idea/ProfilePage.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Constant/Common.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Constant/Common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Document/student.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Model/File/File.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Model/File/File.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Model/Student/Student.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Model/Student/Student.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Website/Images/BG_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Website/Images/student.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Website/Personal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/Website/defaultHtml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProfilePage/main.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chukhanh&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chukhanh/Practice_C-.git&quot;,
+    &quot;accountId&quot;: &quot;c3928e25-5bce-4a4a-ad1d-59dafaf56e8d&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Restaurant_Management/Model/Item/Item.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Restaurant_Management/Model/Item/Item.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="3.1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34uW7oLLAFy1qAlRUnmK1ffqk3O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.main_v2.cpp.executor": "Debug",
+    "CMake Application.Restaurant_Management.executor": "Run",
+    "CMake Debug.Restaurant_Management.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/chukhanhhh/Downloads/hcmus/HK2/CSC10002/Practice_C-/Restaurant_Management/Document",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Restaurant_Management/Document" />
+      <recent name="$PROJECT_DIR$/Restaurant_Management/Model" />
+      <recent name="$PROJECT_DIR$/Restaurant_Management" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Restaurant_Management/Model/Item" />
+      <recent name="$PROJECT_DIR$/Caculate" />
+      <recent name="$PROJECT_DIR$/ProfilePage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Restaurant_Management">
+    <configuration name="Restaurant_Management" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Restaurant_Management" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Restaurant_Management" TARGET_NAME="Restaurant_Management" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Restaurant_Management" RUN_TARGET_NAME="Restaurant_Management">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main_v2.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Restaurant_Management" TARGET_NAME="main_v2.cpp" CONFIG_NAME="main_v2.cpp">
+      <option name="sourceFile" value="Restaurant_Management/main_v2.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.main_v2.cpp" />
+      <item itemvalue="CMake Application.Restaurant_Management" />
+      <item itemvalue="CMake Debug.Restaurant_Management" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.main_v2.cpp" />
+        <item itemvalue="CMake Debug.Restaurant_Management" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd0faf86-412f-42ce-9306-3c96bd087626" name="Changes" comment="" />
+      <created>1762063772829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762063772829</updated>
+      <workItem from="1762063774145" duration="58000" />
+      <workItem from="1762063992071" duration="1389000" />
+      <workItem from="1763268173994" duration="1908000" />
+      <workItem from="1764479408787" duration="3886000" />
+      <workItem from="1765124418405" duration="6051000" />
+      <workItem from="1765186357887" duration="3217000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

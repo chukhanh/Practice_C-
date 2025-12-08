@@ -1,9 +1,11 @@
 # ninja log v6
-5	586	1735989675926469133	CMakeFiles/Caculate.dir/main.cpp.o	6e68b6c23cbd3577
-586	636	1735989676507089536	Caculate	26d7a5fb5e2a0239
-5	851	1735986707216480433	CMakeFiles/Caculate.dir/Model/File/File.cpp.o	ddeaebc17e946a6d
-4	487	1735989657034841189	CMakeFiles/Caculate.dir/Constant/Common.cpp.o	df57edbafbbb21d6
-4	844	1735989657035041433	CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o	bf97c82b9606177e
-5	1089	1736076566532051332	CMakeFiles/Caculate.dir/main.cpp.o	6e68b6c23cbd3577
-7	1193	1736076566533787050	CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o	bf97c82b9606177e
-1193	1400	1736076567720122387	Caculate	26d7a5fb5e2a0239
+2	1347	1749309058322362343	CMakeFiles/Caculate.dir/main.cpp.o	180c3ca06e388398
+1530	1599	1749309059850205767	Caculate	ab0cbd4f5dc7a4f9
+2	1427	1749309058322714209	CMakeFiles/Caculate.dir/Model/File/File.cpp.o	8ebbe3409ff1374
+2	828	1749309058322861163	CMakeFiles/Caculate.dir/Constant/Common.cpp.o	8572a79f96b7bf85
+3	1530	1749309058322990576	CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o	10344a861d08f35
+6	499	1749309472582200644	CMakeFiles/Caculate.dir/Constant/Common.cpp.o	8572a79f96b7bf85
+5	669	1749309472581256336	CMakeFiles/Caculate.dir/main.cpp.o	180c3ca06e388398
+6	678	1749309472581910985	CMakeFiles/Caculate.dir/Model/File/File.cpp.o	8ebbe3409ff1374
+6	735	1749309472582770462	CMakeFiles/Caculate.dir/Model/Calculation/Calculations.cpp.o	10344a861d08f35
+735	847	1749309473311728928	Caculate	ab0cbd4f5dc7a4f9
